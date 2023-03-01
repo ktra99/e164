@@ -1,11 +1,5 @@
 import { Dialog } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion, Transition, Variants } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
