@@ -271,7 +271,7 @@ export default function Home() {
               type="submit"
               className="block w-full text-lg rounded-md bg-white px-3.5 py-2.5 text-center font-semibold text-[#494399] shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Let's talk
+              Let&apos;s talk
             </button>
           </div>
         </form>
