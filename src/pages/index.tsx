@@ -168,7 +168,7 @@ export default function Home() {
           className="mt-24 w-[45rem] mx-auto rounded-lg relative z-10"
         />
         <div className="w-12 h-12 rounded-full bg-[#72EFE9] top-24 relative z-20 lg:block hidden" />
-        <div className="bg-[#72EFE9] h-48 w-full -mt-80 rounded-lg relative" />
+        <div className="bg-[#72EFE9] h-48 w-full -mt-96 rounded-lg relative" />
         <div className="mt-48 py-12">
           <h2 className="text-white text-4xl font-bold text-center">
             Hosting Datacenter
