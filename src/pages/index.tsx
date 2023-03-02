@@ -57,7 +57,7 @@ export default function Home() {
             <div className="w-64 h-[30rem] bg-[#72EFE9] relative -mt-[60rem] ml-24 hidden sm:block" />
           </div>
         </div>
-        <div className="pb-24">
+        <div className="sm:pt-36 lg:pt-0 pb-24">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-[#72EFE9]">
               Deploy faster
@@ -169,7 +169,7 @@ export default function Home() {
         />
         <div className="w-12 h-12 rounded-full bg-[#72EFE9] top-24 relative z-20 lg:block hidden" />
         <div className="bg-[#72EFE9] h-48 w-full -mt-96 rounded-lg relative" />
-        <div className="mt-48 py-12">
+        <div className="mt-52 sm:mt-80 py-12">
           <h2 className="text-white text-4xl font-bold text-center">
             Hosting Datacenter
           </h2>
