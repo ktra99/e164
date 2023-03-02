@@ -49,7 +49,7 @@ export default function Home() {
               </p>
               <button
                 type="button"
-                className="px-8 py-3 mt-24 text-lg rounded-full bg-[#494399] text-white uppercase font-bold tracking-wider"
+                className="px-8 py-3 mt-12 sm:mt-24 text-lg rounded-full bg-[#494399] text-white uppercase font-bold tracking-wider"
               >
                 Learn more
               </button>
