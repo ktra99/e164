@@ -30,17 +30,17 @@ const features = [
 
 export default function Home() {
   return (
-    <div className="bg-[#494399] pb-24">
+    <div className="bg-[#494399] pb-24 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="py-24 h-[60rem]">
-          <div className="ml-12">
-            <div className="w-48 h-48 rounded-full bg-white relative z-20" />
+        <div className="py-12 sm:py-24 sm:h-[60rem]">
+          <div className="sm:ml-12">
+            <div className="w-48 h-48 rounded-full bg-white relative z-20 sm:block hidden" />
             <img
               src="datacenter.jpg"
               alt="data center"
-              className="w-[45rem] ml-24 -mt-36 rounded-lg relative z-10"
+              className="w-full sm:w-[45rem] sm:ml-24 sm:-mt-36 rounded-lg relative z-10"
             />
-            <div className="relative bg-white max-w-[36rem] p-8 rounded-lg lg:ml-[30rem] lg:-mt-48 z-20 transition-all duration-300">
+            <div className="relative bg-white w-full sm:max-w-[36rem] p-8 sm:rounded-lg lg:ml-[30rem] lg:-mt-48 z-20 transition-all duration-300">
               <h2 className="text-[#494399] text-4xl font-bold">E164</h2>
               <p className="text-lg leading-[1.5rem] mt-6">
                 E164 tillhandahåller och förser operatör inom Sverige med
@@ -54,7 +54,7 @@ export default function Home() {
                 Learn more
               </button>
             </div>
-            <div className="w-64 h-96 bg-[#72EFE9] relative -mt-[60rem] ml-24" />
+            <div className="w-64 h-[30rem] bg-[#72EFE9] relative -mt-[60rem] ml-24 hidden sm:block" />
           </div>
         </div>
         <div className="pb-24">
