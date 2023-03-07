@@ -27,7 +27,7 @@ export default function Example() {
                     <br />
                     Mån - Fre (08:00 - 16:00)
                     <br />
-                    Lör - Sön Stängt
+                    Lör - Sön (Stängt)
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
