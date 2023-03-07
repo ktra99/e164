@@ -325,7 +325,7 @@ export default function Home() {
             </div>
             <img src="spiral.jpg" alt="spiral" className="lg:w-1/2" />
             <div className="bg-[#72EFE9] absolute -right-10 lg:-right-20 lg:-bottom-20 lg:top-auto top-20 w-[28rem]">
-              <p className="text-xl sm:text-4xl font-bold py-6 px-8 leading-relaxed text-[#494399]">
+              <p className="text-sm sm:text-4xl font-bold sm:py-6 sm:px-8 p-4 leading-relaxed text-[#494399]">
                 Nya mobilnummer, virtuella nummer, eller fastnätsnummer, oavsett
                 behov så hjälper vi er.
               </p>
