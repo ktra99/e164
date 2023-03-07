@@ -175,7 +175,7 @@ export default function Home() {
           <div className="py-12 sm:py-24 sm:h-[60rem]">
             <div className="sm:ml-12">
               <div className="w-48 h-48 rounded-full bg-white relative z-20 hidden sm:flex items-center justify-center">
-                <img src="/logo.png" alt="logo" className="p-4" />
+                <img src="/logo.png" alt="logo" className="p-4 h-24 w-auto" />
               </div>
               <img
                 src="datacenter.jpg"
@@ -306,10 +306,35 @@ export default function Home() {
               svar på frågor, hör av er direkt!
             </p>
           </div>
+          <div className="flex lg:flex-row flex-col-reverse lg:max-w-none max-w-3xl mx-auto relative">
+            <div className="bg-white lg:w-1/2 lg:min-h-fit py-12 px-6 lg:py-0 lg:px-12 flex flex-col justify-center">
+              <p className="text-2xl font-semibold leading-10 text-gray-700">
+                {" "}
+                Hantera kommunikation på ett företag kan vara en stor uppgift,
+                E164 gör det lättare. Oavsett fråga eller idé så har vi alltid
+                ett svar!
+              </p>
+              <div className="mt-16 lg:mt-24">
+                <Link
+                  href="/contact"
+                  className="text-lg text-[#494399] lg:max-w-none max-w-2xl lg:w-auto w-full font-semibold leading-6 bg-[#72EFE9] tracking-wider py-4 px-8 rounded-full"
+                >
+                  Kontakta oss
+                </Link>
+              </div>
+            </div>
+            <img src="spiral.jpg" alt="spiral" className="lg:w-1/2" />
+            <div className="bg-[#72EFE9] absolute -right-10 lg:-right-20 lg:-bottom-20 lg:top-auto top-20 w-[28rem]">
+              <p className="text-xl sm:text-4xl font-bold py-6 px-8 leading-relaxed text-[#494399]">
+                Nya mobilnummer, virtuella nummer, eller fastnätsnummer, oavsett
+                behov så hjälper vi er.
+              </p>
+            </div>
+          </div>
           <img
             src="phone.jpg"
             alt="phone"
-            className="mt-24 w-full lg:max-w-none max-w-3xl lg:w-[45rem] mx-auto rounded-lg relative z-10"
+            className="mt-24 lg:mt-48 w-full lg:max-w-none max-w-3xl lg:w-[45rem] mx-auto rounded-lg relative z-10"
           />
           <div className="w-12 h-12 rounded-full bg-[#72EFE9] top-24 relative z-20 lg:block hidden" />
           <div className="bg-[#72EFE9] h-48 w-full -mt-96 rounded-lg relative lg:block hidden" />
